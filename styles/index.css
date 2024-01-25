@@ -1,14 +1,14 @@
 
-/* using popins font inside body tag */
+                                    /* using popins font inside body tag */
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
   body{
     font-family: 'Poppins', sans-serif;
-    background-color: wheat;
+    background-color:white;
 
   }
-/* using popins font inside body tag */
+                             /* using popins font inside body tag */
 
-
+                                     /* common css */
 *{
     margin: 0px;
     padding: 0px;
@@ -16,12 +16,15 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+                                       /* common css */
 
-                                                 /* nav bar style start */
+                                         /* nav bar style */
 nav{
     height: 90px;
     width: 100%;
-padding: 2rem;    
+padding: 2rem;   
+background-color: #FFF4E7;
+
     
     
 }
@@ -45,16 +48,19 @@ li a{
     color: black;
 }
 
-                                                              /* nav bar style end */
+                                                              /* nav bar style */
 
  
 
 
 
-                                                              /* first section style start */
-.main_group{
-    
+                                                              /* first section style  */
 
+
+
+
+.main_gorup_section{
+    background-color: #FFF4E7;
 }
 .main_gorup_description{
     text-align: center;
@@ -89,17 +95,7 @@ padding: 1rem;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-                                                  /* first section style end */
+                                                  /* first section style */
 
 
 
@@ -159,6 +155,9 @@ grid-template-columns: repeat(2 ,1fr);
     color: white;
 
 }
+                                                          /* second section style */
+
+                                                          /* third section style */
 
 .third_section{
     background-color: white;
@@ -232,6 +231,106 @@ top: -110px;
 font-size: 40px;
 font-weight: 700;
 }
-.button{
-   
+
+                                             /* third section style */
+
+
+
+
+                                             /* fourth section style */
+
+.fourth_section{
+    background-color: white;
 }
+.fact_description{
+    text-align: left;
+    padding: 2rem;
+    margin-left: 120px;
+    margin-right: 750px;
+}
+.fact_card{
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem;
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
+.facts{
+    text-align: center;
+    border: 1px solid #FF900E;
+    padding: 2.3rem;
+    border-radius: 5px;
+  
+
+}
+.facts:hover{
+    /* background-color:salmon; */
+    box-shadow:5px 4px 0.4rem salmon ;
+}
+.fact_title{
+    font-size: 35px;
+
+}
+.fact_dept{
+    font-size: 14px;
+    color: var(--Dark-02, #424242);
+    margin-top: 10px;
+
+}
+.fact_card_dept{
+    font-size: 16px;
+    color: var(--Dark-02, #424242);
+
+
+}
+.fact_card_number{
+    font-size: 35px;
+    font-weight: 800;
+}
+                                                /* fourth section style */
+
+                                        /* fifth section style */
+
+.sponsor_section{
+    background-color: white;
+}
+.sponsor_div{
+    text-align: center;
+    padding: 1rem;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.sponsors{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+    margin-left: 120px;
+    margin-right: 120px;
+    
+}
+.sponsors img{
+    filter: brightness(0.7) saturate(1%);
+
+}
+                                         /* fifth section style */
+
+
+                                                               /* footer style */
+footer{
+    background-color: white;
+}
+.footer{
+    text-align: center;
+    border: none;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 1.8rem;
+    border-radius: 5px;
+    background-color:#FFF4E7;
+    margin-bottom: 12rem;
+    margin-top: 5rem;
+    font-size: 14px;
+    color: #727272;
+}
+                                                  /* footer style */
