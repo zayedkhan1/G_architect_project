@@ -21,7 +21,7 @@
 nav{
     height: 90px;
     width: 100%;
-padding: 2rem;    background: rgba(255, 144, 14, 0.10);
+padding: 2rem;    
     
     
 }
@@ -53,7 +53,7 @@ li a{
 
                                                               /* first section style start */
 .main_group{
-    background: rgba(255, 144, 14, 0.10);
+    
 
 }
 .main_gorup_description{
@@ -100,3 +100,138 @@ padding: 1rem;
 
 
                                                   /* first section style end */
+
+
+
+   
+   
+                                                  /* second section style */
+
+.second_section{
+    background-color: #FFF;
+    padding: 3rem;
+}
+    .Features{
+    display: flex;
+justify-content: center;
+gap: 50px;
+margin-left: 120px;
+padding: 5rem;
+}
+.features_img img{
+ width: 300px;
+height: 300px;
+border-radius: 8px;
+padding: 5px;
+
+}
+.features_img{
+display: grid;
+grid-template-columns: repeat(2 ,1fr);
+
+
+
+}
+.features_description{
+    text-align: left;
+    padding: 5px;
+    margin-top: 150px;
+  
+
+}
+.features_title{
+    font-size: 40px;
+    color: var(--Dark-03, #727272);
+
+}
+.features_dept{
+    font-size: 14px;
+     margin: 1rem 0rem;
+     color: var(--Dark-03, #727272);
+
+}
+.features_btn{
+    font-size: 15px;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: orange;
+    border: none;
+    color: white;
+
+}
+
+.third_section{
+    background-color: white;
+}
+
+
+.our_features{
+    display: flex;
+    justify-content: center;
+    gap: 146px;
+}
+.our_feature_description_part{
+     padding: 10px;
+}
+.card{
+  margin-bottom: 10px;
+  background-color: white;
+  border: 2px solid whitesmoke;
+   border-radius: 10px;
+   padding: 1rem;
+
+}
+.card_title{
+    font-size: 20px;
+    color: var(--Dark-01, #131313);
+
+
+}
+.card_description{
+  
+    font-size: 14px;
+    color: var(--Dark-03, #727272);
+
+
+}
+.our_features_description{
+    margin-left: 150px;
+    
+}
+.our_features_img{
+margin-right: 150px;
+}
+.our_features_img img{
+    width: 608px;
+height: 782px
+}
+.our_features_title{
+    font-size: 45px;
+
+
+}
+.class{
+    font-size: 14px;
+    color: var(--Dark-03, #727272);
+    margin-bottom: 15px;
+    margin-top: 10px;
+
+
+}
+.our_features_button{
+    font-size: 16px;
+    padding: 2rem 3rem;
+    margin-left: -50px;
+    border-radius: 5px;
+   
+    background-color:#FF900E;
+    color: white;
+     border: none;
+position: relative;
+top: -110px;
+font-size: 40px;
+font-weight: 700;
+}
+.button{
+   
+}
